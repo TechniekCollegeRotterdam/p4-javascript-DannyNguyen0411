@@ -24,10 +24,13 @@
 // button.addEventListener("click", funtion(){
 // console.log("geklikt");
 // });
-
-let name = document.querySelector("nameChanged");
-let country = document.querySelector("countryChanged");
+let name;
+let country;
 let p = document.getElementById("output");
+
+let nameChanged = document.querySelector("#nameChanged");
+let countryChanged = document.querySelector("#countryChanged");
+
 
 nameChanged.addEventListener("change", function(){
    name = event.target.value;
