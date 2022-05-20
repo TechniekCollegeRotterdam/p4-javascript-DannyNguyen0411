@@ -43,7 +43,7 @@ countryChanged.addEventListener("change", function(){
 })
 
 const changeInput = function(){
-   const text = `Je heet ${name} en je komt uit ${country}`;
+   const text = `Je heet ${name} en je komt uit ${country} en je crewmate is ${}`;
    p.textContent = text;
 }
 
