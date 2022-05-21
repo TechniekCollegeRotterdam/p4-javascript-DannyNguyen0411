@@ -31,8 +31,8 @@ window.addEventListener("keydown", function(event){
 
     }
     if(event.key == "ArrowDown"){
-    count += 50;
-    bird.style.top = count + "px";
+    count -= 50;
+    bird.style.bottom = count + "px";
     }
 })
 
