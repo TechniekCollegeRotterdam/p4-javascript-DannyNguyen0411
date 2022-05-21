@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(127, 249, 255);
+    background: url(img/ACO-Sport-Olympisch-Stadion-goten-binnen-ring2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
   }
